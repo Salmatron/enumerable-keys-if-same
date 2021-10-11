@@ -1,0 +1,22 @@
+{
+  "name": "@salmatron/enumerable-keys-if-same",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "main": "enumerable-keys-if-same.mjs",
+  "module": "enumerable-keys-if-same.mjs",
+  "types": "enumerable-keys-if-same.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salmatron/enumerable-keys-if-same.git"
+  },
+  "author": "salmatron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Salmatron/enumerable-keys-if-same/issues"
+  },
+  "homepage": "https://github.com/Salmatron/enumerable-keys-if-same#readme"
+}
