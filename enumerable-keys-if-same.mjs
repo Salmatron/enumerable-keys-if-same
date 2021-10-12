@@ -1,3 +1,4 @@
+// @ts-check
 
 const basePropertyIsEnumerable = Object.prototype.propertyIsEnumerable;
 
@@ -44,7 +45,7 @@ export function enumerableKeysIfSame(a, b) {
 
     const allSyms = new Set(Object.getOwnPropertySymbols(a).concat(Object.getOwnPropertySymbols(b)));
 
-    if (allSyms.length === 0) {
+    if (allSyms.size === 0) {
         return keysA;
     }
 
